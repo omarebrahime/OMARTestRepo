@@ -1,0 +1,16 @@
+PODS:
+  - OMARTestPod (0.1.0)
+
+DEPENDENCIES:
+  - OMARTestPod (from `../`)
+
+EXTERNAL SOURCES:
+  OMARTestPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OMARTestPod: c4bb5a6b8516b6cc26b32b34c3aacde24016d912
+
+PODFILE CHECKSUM: aa8a70f73793247670219ebbafeea05c78b21de8
+
+COCOAPODS: 1.11.3
