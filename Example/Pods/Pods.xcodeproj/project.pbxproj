@@ -55,7 +55,7 @@
 		4C7ECE302E815EC0475537AC7931FB24 /* Pods-OMARTestPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OMARTestPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4EE81F2BDF1215A1EAB10F515FC922CE /* OMARTestPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OMARTestPod-prefix.pch"; sourceTree = "<group>"; };
 		505DB784356F88BECE39B0BD2A6B4FEC /* Pods-OMARTestPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OMARTestPod_Tests.modulemap"; sourceTree = "<group>"; };
-		515FA15782A3AE8E3697FC48806519B9 /* Pods-OMARTestPod_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OMARTestPod_Example"; path = Pods_OMARTestPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		515FA15782A3AE8E3697FC48806519B9 /* Pods_OMARTestPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMARTestPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD2A914C74A76E322A9BF7CFB44FC84 /* Pods-OMARTestPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OMARTestPod_Example-dummy.m"; sourceTree = "<group>"; };
 		608A3456C7E2BAED5EB3BAEC3A8F3746 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		625FE0420C77B4DCDF256D97A84B0CFE /* Pods-OMARTestPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OMARTestPod_Example.modulemap"; sourceTree = "<group>"; };
@@ -64,10 +64,10 @@
 		6813990C7A974E173E05AC6680A8BE67 /* OMARTestPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OMARTestPod.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7394E22EE9496801501727E317C12951 /* Pods-OMARTestPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OMARTestPod_Tests-umbrella.h"; sourceTree = "<group>"; };
-		790F69F400576A30B6A78391B743F4AF /* Pods-OMARTestPod_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OMARTestPod_Tests"; path = Pods_OMARTestPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		790F69F400576A30B6A78391B743F4AF /* Pods_OMARTestPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMARTestPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7999FBE492D3CACACDE1112BCF5134E5 /* Pods-OMARTestPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OMARTestPod_Example-umbrella.h"; sourceTree = "<group>"; };
 		8F4AC3C558921236C3912A6F52FED312 /* Pods-OMARTestPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OMARTestPod_Tests-dummy.m"; sourceTree = "<group>"; };
-		9A370866FFC423DF9C21F25065B257AB /* OMARTestPod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OMARTestPod; path = OMARTestPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A370866FFC423DF9C21F25065B257AB /* OMARTestPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OMARTestPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C481BAA2220D7B5AF94E08A5006A2B4 /* OMARTestPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OMARTestPod.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0AE4D25F8D69469F691DCC35A0126C7 /* Pods-OMARTestPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OMARTestPod_Example-Info.plist"; sourceTree = "<group>"; };
@@ -233,9 +233,9 @@
 		DBCAB6EC8F81F42054FBFBEFBFF5A72A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A370866FFC423DF9C21F25065B257AB /* OMARTestPod */,
-				515FA15782A3AE8E3697FC48806519B9 /* Pods-OMARTestPod_Example */,
-				790F69F400576A30B6A78391B743F4AF /* Pods-OMARTestPod_Tests */,
+				9A370866FFC423DF9C21F25065B257AB /* OMARTestPod.framework */,
+				515FA15782A3AE8E3697FC48806519B9 /* Pods_OMARTestPod_Example.framework */,
+				790F69F400576A30B6A78391B743F4AF /* Pods_OMARTestPod_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -285,7 +285,7 @@
 			);
 			name = OMARTestPod;
 			productName = OMARTestPod;
-			productReference = 9A370866FFC423DF9C21F25065B257AB /* OMARTestPod */;
+			productReference = 9A370866FFC423DF9C21F25065B257AB /* OMARTestPod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2B4ECAC09B83C87A5F64C2CE48C26703 /* Pods-OMARTestPod_Tests */ = {
@@ -304,7 +304,7 @@
 			);
 			name = "Pods-OMARTestPod_Tests";
 			productName = Pods_OMARTestPod_Tests;
-			productReference = 790F69F400576A30B6A78391B743F4AF /* Pods-OMARTestPod_Tests */;
+			productReference = 790F69F400576A30B6A78391B743F4AF /* Pods_OMARTestPod_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FA1E4ACA0C4D5DDC34F39DF6D199E9CA /* Pods-OMARTestPod_Example */ = {
@@ -323,7 +323,7 @@
 			);
 			name = "Pods-OMARTestPod_Example";
 			productName = Pods_OMARTestPod_Example;
-			productReference = 515FA15782A3AE8E3697FC48806519B9 /* Pods-OMARTestPod_Example */;
+			productReference = 515FA15782A3AE8E3697FC48806519B9 /* Pods_OMARTestPod_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -442,7 +442,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-OMARTestPod_Example/Pods-OMARTestPod_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-OMARTestPod_Example/Pods-OMARTestPod_Example.modulemap";
@@ -475,7 +475,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-OMARTestPod_Tests/Pods-OMARTestPod_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-OMARTestPod_Tests/Pods-OMARTestPod_Tests.modulemap";
@@ -508,7 +508,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-OMARTestPod_Example/Pods-OMARTestPod_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-OMARTestPod_Example/Pods-OMARTestPod_Example.modulemap";
@@ -576,7 +576,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -603,7 +603,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-OMARTestPod_Tests/Pods-OMARTestPod_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-OMARTestPod_Tests/Pods-OMARTestPod_Tests.modulemap";
@@ -637,7 +637,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/OMARTestPod/OMARTestPod-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/OMARTestPod/OMARTestPod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/OMARTestPod/OMARTestPod.modulemap";
 				PRODUCT_MODULE_NAME = OMARTestPod;
@@ -705,7 +705,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -734,7 +734,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/OMARTestPod/OMARTestPod-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/OMARTestPod/OMARTestPod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/OMARTestPod/OMARTestPod.modulemap";
 				PRODUCT_MODULE_NAME = OMARTestPod;
